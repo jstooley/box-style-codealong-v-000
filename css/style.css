@@ -53,7 +53,7 @@ background: -ms-linear-gradient(top,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd
 background: linear-gradient(to bottom,  #efefef 0%,#ffffff 24%,#ffffff 68%,#dddddd 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
   }
-  
+
 .medium-fade{
 background: rgb(229,229,229); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
@@ -141,7 +141,9 @@ img, video, audio, iframe, table, form {
 
 /*////////// HEADER //////////*/
 
-
+header{
+  margin: 0 0 30px;
+}
 
 /*////////// NAVBAR //////////*/
 
